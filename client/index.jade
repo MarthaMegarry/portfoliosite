@@ -1,0 +1,128 @@
+doctype html
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      title Martha Megarry
+      link(href="venders/uikit.min.css" rel="stylesheet")
+      link(href="css/styles.css" rel="stylesheet")
+      script(type="text/javascript" src="venders/jquery.min.js")
+      script(type="text/javascript" src="venders/uikit.min.js")
+      script(type="text/javascript" src="venders/parallax.min.js")
+      script(type="text/javascript" src="venders/sticky.min.js")
+      script(type="text/javascript" src="scripts/app.min.js")
+   body.uk-container-center
+      header.uk-grid
+         .uk-width-1-10
+         .uk-width-8-10(data-uk-parallax="{opacity: '1,0'}")
+            img(src="images/MegarryPhotoshop.gif" alt="moth illustration")
+         .uk-width-1-10
+         .uk-width-1-1
+            nav.uk-navbar(data-uk-sticky)
+               ul.uk-navbar-nav(data-uk-switcher="{connect:'#mainswitch'}")
+                  li
+                     a(href="") Home
+                  li
+                     a(href="") Portfolio
+                  li
+                     a(href="") Resume
+      main
+         ul.uk-switcher#mainswitch
+            li
+               h1 Martha Megarry
+               p Martha is a software engineer, artist and musician from Minneapolis, MN
+            li
+               h1 Portfolio
+               article.uk-article
+                  h2.uk-article-title Nordeast Makers Space
+                  img(src="images/nordeasttools.jpg" alt="Nordeast Makers Website Screenshot of the Tool Management Page")
+                  p this is a paragraph about the Nordeast Makers Project
+               article.uk-article
+                  h2.uk-article-title Southwest High School
+                  p this is where a photo goes
+                  p this is a paragraph goes
+               article.uk-article
+                  h2.uk-article-title ColorWheel Gallery
+                  p this is where a photo goes
+                  p this is a paragraph goes
+               article.uk-article
+                  h2.uk-article-title Tapestry Folkdance Center
+                  p this is where a photo goes
+                  p this is a paragraph goes
+            li
+               h1 Resume
+               h2 Technical Skills
+               article.uk-article.uk-grid
+                  .uk-width-medium-1-3
+                    p HTML5
+                    p CSS3
+                    p JavaScript
+                    p jQuery
+                    p Bootstrap
+                    p Uikit
+                    p Handlebars
+                    p Jade
+                    p Angular Material
+                  .uk-width-medium-1-3
+                    p AngularJS
+                    p MongoDB
+                    p Express.js
+                    p Node.JS
+                    p PostgreSQL
+                    p Grunt
+                    p Gulp
+                    p Git/GitHub
+                    p Heroku
+                  .uk-width-medium-1-3
+                    p RESTfull API's
+                    p JSON
+                    p Scalar
+                    p WordPress
+                    p Wordpress Child Themes
+                    p Photoshop
+                    p Illustrator
+                    p InDesign
+                    p Videography
+               h2 Software Development Experience
+               article.uk-article
+                  h3.uk-article-title Prime Digital Academy
+                  p.uk-article-meta Software Engineering Student  June 2015-October 2015
+                  p Solo Project: Costume Inventory Database for Southwest High School Costume Shop - The costume shop needed a way to keep track of their costumes and know if they were already checked out for a production. This site built in the MEAN stack with Bootstrap will help costume designers stay organized and choose the best costumes for the show through powerful search tools and the ability to check costumes in and out from a production.
+                  p Group Project: Tool Reservation System for Nordeast Makers Space Role: Lead Developer. The Makers Space needed a way to sign new members up efficiently and let them reserve time on the different machines they have available in the space. This site built in the MEAN stack with Angular Material allows users to quickly sign up for an account by interfacing with the Freshbooks/Stripe API to process payments and helps them share time on the machines by giving them the ability to reserve time on a calendar for each machine.
+                  p Presented an “Icebreaker” speech at the Nerdery Toastmasters Club
+               article.uk-article
+                  h3.uk-article-title Tapestry Folkdance Center
+                  p.uk-article-meta Marketing and Technical Assistant  March 2013- July 2015
+                  p Designed and created a new WordPress website with a custom child theme with mentorship by a local freelance web developer
+                  p Led the project to research and buy new computers for the office
+                  p Day to day tasks included space rental management, email and social     media marketing, paper marketing material design and website     management
+               article.uk-article
+                  h3.uk-article-title University of Minnesota Sociology Department
+                  p.uk-article-meta Research Assistant  Feb 2014 – July 2015
+                  p Created web interfaces with Scalar/WordPress for collecting stories that explore food policy and its effect on communities.
+               article.uk-article
+                  h3.uk-article-title Freelance Web Design/Development Projects
+                  p.uk-article-meta November 2015 – August 2015
+                  p ColorWheel Salon and Gallery: Designed and built new WordPress website with a custom child theme, set up MailChimp integration and migrated site to a new server.
+                  p Neomandala: Built new WordPress site and set up a MailChimp account for client.
+                  p North Psychology Clinic: Migrated website to a new server, transferred domain to a new registrar, fixed broken pages and code, updated with new pages using HTML5 and CSS3, created training guides for using the blog and set-up MailChimp account for the clinic.
+               h2 Other Professional Experience
+               article.uk-article
+                  h3.uk-article-title Minneapolis Parks and Recreation
+                  p.uk-article-meta Theater, Dance and Art Teacher June 2009 – April 2014
+                  p Taught children aged 4-18 theater, art and dance based around a country/culture theme. Then we helped the kids put together a show based on their interpretations of what they learned.
+               article.uk-article
+                  h3.uk-article-title University of Minnesota Entomology Department
+                  p.uk-article-meta Bee Lab Lab Assistant  November 2010 – August 2011
+                  p Performed research with bumblebees and honeybees on the effect of pesticides on pollinators.
+               h2 University Education:
+               article.uk-article
+                  h3.uk-article-title University of Minnesota-Twin Cities
+                  p Bachelor of Arts (B.A.), Linguistics 2008–2012
+                  p Minor in Entomology
+                  p Member/building-owner/resident at The Students' Cooperative Inc.
+                  p Study Abroad: Volunteer with World Wide Opportunities on Organic Farms in Finland Summer 2011
+               h2 Other Activities:
+               p Irish flute player with the Center for Irish Music’s Young Adult Ensemble
+
+footer
+         .uk-width-1-1

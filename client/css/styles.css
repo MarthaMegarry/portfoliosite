@@ -1,0 +1,35 @@
+footer {
+    height: 50px;
+    background-color: #ed815f;
+}
+
+nav {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.uk-switcher li {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.uk-switcher #portswitch h2 {
+    margin-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    color: purple;
+}
+
+.mothpic{
+    background-image: url("../images/MegarryPhotoshop.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+
+.moth {
+    position: fixed;
+}
