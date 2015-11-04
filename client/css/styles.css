@@ -1,7 +1,13 @@
 footer {
     height: 50px;
     background-color: #ed815f;
-    margin-top: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #800080;
+    margin-left: 10px;
 }
 
 nav {
@@ -14,23 +20,14 @@ nav {
     padding-right: 10%;
 }
 
-.uk-switcher #portswitch h2 {
-    margin-top: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 h1 {
-    color: purple;
+    color: #800080;
 }
 
-.mothpic{
-    background-image: url("../images/MegarryPhotoshop.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 400px;
+.space {
+    margin-top: 10px;
 }
 
-.moth {
-    position: fixed;
+.resume p {
+    padding-left: 25px;
 }
