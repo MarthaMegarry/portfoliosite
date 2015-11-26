@@ -1,6 +1,16 @@
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
 footer {
     height: 50px;
-    background-color: #ed815f;
     margin-top: 30px;
     text-align: center;
 }
@@ -15,13 +25,21 @@ nav {
     padding-right: 10%;
 }
 
+h1 {
+    font-family: serif;
+}
+
+.uk-navbar {
+    background-color: #800080;
+}
+
+.uk-navbar-nav li a {
+    color: #ffffff;
+}
+
 .uk-switcher li {
     padding-left: 10%;
     padding-right: 10%;
-}
-
-h1 {
-    color: #800080;
 }
 
 .space {
@@ -30,4 +48,24 @@ h1 {
 
 .resume p {
     padding-left: 25px;
+}
+
+.uk-button {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.uk-button-large {
+    height: 100px;
+    width: 250px;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.topbutton {
+    margin-top: 5px;
+    margin-right: 50px;
+    float: right;
+    font-size: 15px;
 }
