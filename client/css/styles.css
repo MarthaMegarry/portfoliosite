@@ -1,13 +1,11 @@
 main {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
 p {
     font-size: 18px;
 }
-
-
 
 footer {
     height: 50px;
@@ -68,4 +66,21 @@ h1 {
     margin-right: 50px;
     float: right;
     font-size: 15px;
+}
+
+.tech {
+    background-color: orange;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+}
+
+.uk-article {
+    border: solid 1px orange;
+    border-radius: 5px;
+    padding: 20px 50px 20px 20px;
 }
