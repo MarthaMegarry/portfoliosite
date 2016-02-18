@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+}
+
+.pic {
+    background-color: #0FA0CE;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.portfolio {
+    margin-top: 30px;
+}
+
+.description {
+    display: none;
+}
+
+a {
+    background-color: transparent;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+a :hover {
+    color: rebeccapurple;
+}
+
+li {
+    padding: 0px;
+}
+
+.ui-tabs .ui-tabs-nav {
+    padding: 0px;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 0px;
+    float: none;
+}

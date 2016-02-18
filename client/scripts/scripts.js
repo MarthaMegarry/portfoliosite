@@ -1,3 +1,12 @@
-/**
- * Created by Mothra on 10/26/15.
- */
+$(document).ready(function(){
+    $( "#tabs" ).tabs({
+        collapsible: true,
+        active: false
+    });
+    $( "#tabs2" ).tabs({
+        collapsible: true,
+        active: false
+    });
+});
+
+
